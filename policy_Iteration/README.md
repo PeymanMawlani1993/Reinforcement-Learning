@@ -1,1 +1,1 @@
-this code implements policy evaluation and policy improvement for a knwon world P(s',r|s,a)=1. I also created a customized (4*4) Grid World at the beggining.
+this code implements policy evaluation and policy improvement for a knwon world P(s',r|s,a)=1. I also created a customized (4*4) Grid World at the beggining. the reward for every transition to another state except the first state and last state is -1 and for those states is 0. in fact the goal is to force the agent to create a policy to reach the first or last state as quick as possible.
