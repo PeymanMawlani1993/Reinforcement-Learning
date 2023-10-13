@@ -34,7 +34,8 @@ The update rule for the policy parameters in a basic policy gradient algorithm c
 where α is the learning rate.
 This update rule iteratively improves the policy parameters by ascending the gradient of the expected cumulative reward. By repeatedly sampling trajectories, estimating gradients, and updating the parameters, the policy gradually improves to maximize the expected reward.
 
-
+#### References
+[1] Gym, O., and Nimish Sanghi. Deep reinforcement learning with python. Apress, 2021.
 
 
 
